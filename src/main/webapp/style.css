@@ -1,0 +1,82 @@
+@charset "UTF-8";
+:root{
+	--col: #FFFFFF;
+}
+
+body {
+	background:#2F2F2F;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	color: var(--col);
+}
+
+.actionButtons {
+                background-color: #131313;
+                border-radius: 25px;
+                width: 75%;
+                max-width: 550px;
+                height: 50px;
+                border-color: red;
+                display: inline-flexbox;
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                font-variant: bold;
+                color: #ffffff;
+                transition-duration: 0.4s;
+                margin: 0.5rem;
+            }
+
+            .actionButtons:hover {
+                box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24), 0 17px 50px 0 rgba(255, 0, 0, 0.288);
+                background-color: red;
+            }
+
+            .actionButtons:active {
+                background-color: #4d0e0e;
+                box-shadow: 0 5px #000000;
+                transform: translateY(4px);
+            }
+            
+form {
+	color: white;
+	
+}
+
+p {
+	color: white;
+}
+
+input[type=text]{
+	width: 50%;
+	padding: 6px 10px;
+	margin: 4px 0;
+	box-sizing: border-box;
+}
+#data {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#data table {
+	border: 2px solid white;
+	width: 100%;
+	
+	border-collapse: colapse;
+}
+
+#data table td{
+	padding: 10px;
+	text-align: center;
+	align-items: center;
+	text-align: center;
+    justify-content: center;
+    border: 1px solid white;
+    color: white;
+}
+#data th {
+	color: white;
+}
